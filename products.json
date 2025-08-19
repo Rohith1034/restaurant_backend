@@ -1,0 +1,1725 @@
+[
+  {
+    "name": "Chocolate Lava Cake",
+    "description": "Warm chocolate cake with molten center and vanilla ice cream",
+    "price": 8.99,
+    "category": "Desserts",
+    "image": "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Dessert Den",
+    "popular": true,
+    "ingredients": [
+      "Chocolate cake",
+      "Chocolate ganache",
+      "Vanilla ice cream",
+      "Raspberry sauce"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 12
+  },
+  {
+    "name": "New York Cheesecake",
+    "description": "Classic creamy cheesecake with berry compote",
+    "price": 7.99,
+    "category": "Desserts",
+    "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Dessert Den",
+    "popular": true,
+    "ingredients": [
+      "Cream cheese",
+      "Sour cream",
+      "Graham cracker crust",
+      "Mixed berry compote"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 10
+  },
+  {
+    "name": "Tiramisu",
+    "description": "Classic Italian dessert with coffee-soaked ladyfingers",
+    "price": 8.49,
+    "category": "Desserts",
+    "image": "https://images.unsplash.com/photo-1565804360744-5fae9e4b5a3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Bella Italia",
+    "popular": false,
+    "ingredients": [
+      "Ladyfingers",
+      "Espresso",
+      "Mascarpone",
+      "Cocoa powder"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 15
+  },
+  {
+    "name": "Vegan Chocolate Mousse",
+    "description": "Silky chocolate mousse made with avocado and coconut cream",
+    "price": 7.99,
+    "category": "Desserts",
+    "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Vegan Vibes",
+    "popular": true,
+    "ingredients": [
+      "Avocado",
+      "Coconut cream",
+      "Cocoa powder",
+      "Maple syrup",
+      "Vanilla extract"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true
+    },
+    "preparationTime": 10
+  },
+  {
+    "name": "Crème Brûlée",
+    "description": "Rich custard topped with caramelized sugar crust",
+    "price": 8.99,
+    "category": "Desserts",
+    "image": "https://images.unsplash.com/photo-1565958011705-4f0eeedc7e1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Creperie",
+    "popular": false,
+    "ingredients": [
+      "Heavy cream",
+      "Egg yolks",
+      "Vanilla bean",
+      "Sugar"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true
+    },
+    "preparationTime": 15
+  },
+  {
+    "name": "Mozzarella Sticks",
+    "description": "Breaded mozzarella served with marinara sauce",
+    "price": 8.99,
+    "category": "Appetizers",
+    "image": "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Burger Palace",
+    "popular": true,
+    "ingredients": [
+      "Mozzarella cheese",
+      "Breadcrumbs",
+      "Marinara sauce"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 10
+  },
+  {
+    "name": "Chicken Wings",
+    "description": "Crispy wings with choice of buffalo or BBQ sauce",
+    "price": 11.99,
+    "category": "Appetizers",
+    "image": "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "BBQ Pit",
+    "popular": true,
+    "ingredients": [
+      "Chicken wings",
+      "Buffalo sauce",
+      "BBQ sauce",
+      "Ranch dressing"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 15
+  },
+  {
+    "name": "Guacamole & Chips",
+    "description": "Freshly made guacamole with tortilla chips",
+    "price": 9.49,
+    "category": "Appetizers",
+    "image": "https://images.unsplash.com/photo-1586796874859-8c0a5d9d8f8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Taco Fiesta",
+    "popular": false,
+    "ingredients": [
+      "Avocado",
+      "Tomato",
+      "Red onion",
+      "Cilantro",
+      "Lime",
+      "Tortilla chips"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true
+    },
+    "preparationTime": 8
+  },
+  {
+    "name": "Calamari",
+    "description": "Crispy fried calamari with lemon aioli",
+    "price": 12.99,
+    "category": "Appetizers",
+    "image": "https://images.unsplash.com/photo-1611273426858-450d0e9e1c7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Seafood Harbor",
+    "popular": true,
+    "ingredients": [
+      "Calamari",
+      "Flour",
+      "Lemon",
+      "Aioli",
+      "Parsley"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 12
+  },
+  {
+    "name": "Bruschetta",
+    "description": "Toasted bread topped with tomato, basil, and garlic",
+    "price": 8.49,
+    "category": "Appetizers",
+    "image": "https://images.unsplash.com/photo-1529566652340-4b4f4a2e0b1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Bella Italia",
+    "popular": false,
+    "ingredients": [
+      "Baguette",
+      "Tomato",
+      "Fresh basil",
+      "Garlic",
+      "Olive oil"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false
+    },
+    "preparationTime": 9
+  },
+  {
+    "name": "Club Sandwich",
+    "description": "Triple-decker with turkey, bacon, lettuce, and tomato",
+    "price": 12.99,
+    "category": "Sandwiches",
+    "image": "https://images.unsplash.com/photo-1617364066121-8a26d640130f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Deli Corner",
+    "popular": true,
+    "ingredients": [
+      "Turkey",
+      "Bacon",
+      "Lettuce",
+      "Tomato",
+      "Mayonnaise",
+      "Toasted bread"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 10
+  },
+  {
+    "name": "Philly Cheesesteak",
+    "description": "Thinly sliced steak with melted cheese and grilled onions",
+    "price": 14.99,
+    "category": "Sandwiches",
+    "image": "https://images.unsplash.com/photo-1617364066121-8a26d640130f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Deli Corner",
+    "popular": true,
+    "ingredients": [
+      "Ribeye steak",
+      "Provolone cheese",
+      "Grilled onions",
+      "Bell peppers",
+      "Hoagie roll"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 12
+  },
+  {
+    "name": "Veggie Panini",
+    "description": "Grilled vegetables with pesto on ciabatta bread",
+    "price": 11.49,
+    "category": "Sandwiches",
+    "image": "https://images.unsplash.com/photo-1628191010210-a4f3a5d5b8d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Veggie Heaven",
+    "popular": false,
+    "ingredients": [
+      "Zucchini",
+      "Bell peppers",
+      "Eggplant",
+      "Pesto",
+      "Mozzarella",
+      "Ciabatta"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 9
+  },
+  {
+    "name": "Cuban Sandwich",
+    "description": "Roast pork, ham, Swiss cheese, pickles, and mustard",
+    "price": 13.99,
+    "category": "Sandwiches",
+    "image": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Deli Corner",
+    "popular": true,
+    "ingredients": [
+      "Roast pork",
+      "Ham",
+      "Swiss cheese",
+      "Dill pickles",
+      "Mustard",
+      "Cuban bread"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 11
+  },
+  {
+    "name": "Turkey Avocado Wrap",
+    "description": "Sliced turkey with avocado, bacon, and ranch in a spinach wrap",
+    "price": 11.99,
+    "category": "Sandwiches",
+    "image": "https://images.unsplash.com/photo-1628191010210-a4f3a5d5b8d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Deli Corner",
+    "popular": false,
+    "ingredients": [
+      "Turkey",
+      "Avocado",
+      "Bacon",
+      "Lettuce",
+      "Tomato",
+      "Ranch",
+      "Spinach wrap"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 8
+  },
+  {
+    "name": "Grilled Salmon",
+    "description": "Atlantic salmon with lemon butter sauce and seasonal vegetables",
+    "price": 22.99,
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Seafood Harbor",
+    "popular": true,
+    "ingredients": [
+      "Atlantic salmon",
+      "Lemon butter sauce",
+      "Asparagus",
+      "Baby potatoes",
+      "Dill"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true
+    },
+    "preparationTime": 20
+  },
+  {
+    "name": "Fish Tacos",
+    "description": "Beer-battered cod with cabbage slaw and chipotle crema",
+    "price": 14.99,
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1615874694520-8229a39a9a1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Taco Fiesta",
+    "popular": true,
+    "ingredients": [
+      "Cod fillet",
+      "Beer batter",
+      "Cabbage",
+      "Cilantro",
+      "Chipotle crema",
+      "Corn tortillas"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 16
+  },
+  {
+    "name": "Shrimp Scampi",
+    "description": "Jumbo shrimp sautéed in garlic butter white wine sauce",
+    "price": 19.99,
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1617196035154-1e7e6e28b0db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Seafood Harbor",
+    "popular": false,
+    "ingredients": [
+      "Jumbo shrimp",
+      "Garlic",
+      "Butter",
+      "White wine",
+      "Lemon",
+      "Parsley"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true
+    },
+    "preparationTime": 15
+  },
+  {
+    "name": "Lobster Roll",
+    "description": "Chilled lobster meat with lemon mayo on a buttered roll",
+    "price": 24.99,
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1560114928-40f1f1eb26a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Seafood Harbor",
+    "popular": true,
+    "ingredients": [
+      "Lobster meat",
+      "Mayonnaise",
+      "Lemon juice",
+      "Celery",
+      "Buttered roll"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 12
+  },
+  {
+    "name": "Seafood Paella",
+    "description": "Traditional Spanish rice dish with shrimp, mussels, and chorizo",
+    "price": 23.99,
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1607532941433-304659e8198a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Tapas Bar",
+    "popular": false,
+    "ingredients": [
+      "Arborio rice",
+      "Shrimp",
+      "Mussels",
+      "Chorizo",
+      "Saffron",
+      "Peas",
+      "Bell peppers"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true
+    },
+    "preparationTime": 30
+  },
+  {
+    "name": "Fresh Lemonade",
+    "description": "House-made lemonade with mint",
+    "price": 4.99,
+    "category": "Drinks",
+    "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "All",
+    "popular": true,
+    "ingredients": [
+      "Fresh lemons",
+      "Sugar",
+      "Water",
+      "Mint"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true
+    },
+    "preparationTime": 5
+  },
+  {
+    "name": "Iced Matcha Latte",
+    "description": "Premium matcha green tea with milk and ice",
+    "price": 5.99,
+    "category": "Drinks",
+    "image": "https://images.unsplash.com/photo-1559177697-9b1b5b1b1b1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "All",
+    "popular": true,
+    "ingredients": [
+      "Matcha powder",
+      "Milk",
+      "Ice",
+      "Honey"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true
+    },
+    "preparationTime": 4
+  },
+  {
+    "name": "Craft Beer Flight",
+    "description": "Selection of four local craft beers",
+    "price": 12.99,
+    "category": "Drinks",
+    "image": "https://images.unsplash.com/photo-1513309914637-65c20a5962e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "BBQ Pit",
+    "popular": false,
+    "ingredients": [
+      "Local craft beers"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false
+    },
+    "preparationTime": 3
+  },
+  {
+    "name": "House Red Wine",
+    "description": "Glass of our premium house red blend",
+    "price": 8.99,
+    "category": "Drinks",
+    "image": "https://images.unsplash.com/photo-1568213816046-0ee1c42bd559?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Steak Masters",
+    "popular": true,
+    "ingredients": [
+      "Red wine"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true
+    },
+    "preparationTime": 2
+  },
+  {
+    "name": "Mango Lassi",
+    "description": "Refreshing yogurt drink with mango puree",
+    "price": 5.49,
+    "category": "Drinks",
+    "image": "https://images.unsplash.com/photo-1603569283847-aa295f0d016a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Curry House",
+    "popular": false,
+    "ingredients": [
+      "Yogurt",
+      "Mango puree",
+      "Cardamom",
+      "Honey"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true
+    },
+    "preparationTime": 4
+  },
+  {
+    "name": "Pad Thai",
+    "description": "Stir-fried rice noodles with shrimp, tofu, and peanuts",
+    "price": 15.99,
+    "category": "Asian",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Thai Delight",
+    "popular": true,
+    "ingredients": [
+      "Rice noodles",
+      "Shrimp",
+      "Tofu",
+      "Bean sprouts",
+      "Peanuts",
+      "Tamarind sauce"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 18
+  },
+  {
+    "name": "Chicken Tikka Masala",
+    "description": "Tandoori chicken in creamy tomato sauce",
+    "price": 16.99,
+    "category": "Asian",
+    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Curry House",
+    "popular": true,
+    "ingredients": [
+      "Chicken",
+      "Creamy tomato sauce",
+      "Garam masala",
+      "Basmati rice",
+      "Naan"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 20
+  },
+  {
+    "name": "Beef Pho",
+    "description": "Vietnamese noodle soup with thinly sliced beef",
+    "price": 14.99,
+    "category": "Asian",
+    "image": "https://images.unsplash.com/photo-1612441804231-77a36b284856?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Pho King",
+    "popular": false,
+    "ingredients": [
+      "Beef broth",
+      "Rice noodles",
+      "Beef slices",
+      "Bean sprouts",
+      "Thai basil",
+      "Lime"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true
+    },
+    "preparationTime": 15
+  },
+  {
+    "name": "Bibimbap",
+    "description": "Korean mixed rice with vegetables, beef, and fried egg",
+    "price": 16.49,
+    "category": "Asian",
+    "image": "https://images.unsplash.com/photo-1611330500121-d9439ddc3d2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Korean BBQ",
+    "popular": true,
+    "ingredients": [
+      "Rice",
+      "Beef",
+      "Carrots",
+      "Spinach",
+      "Bean sprouts",
+      "Fried egg",
+      "Gochujang"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 17
+  },
+  {
+    "name": "Vegetable Spring Rolls",
+    "description": "Crispy rolls with vegetables and sweet chili sauce",
+    "price": 8.99,
+    "category": "Asian",
+    "image": "https://images.unsplash.com/photo-1631898039996-87b46c8f8e28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Thai Delight",
+    "popular": false,
+    "ingredients": [
+      "Cabbage",
+      "Carrots",
+      "Mushrooms",
+      "Glass noodles",
+      "Spring roll wrappers",
+      "Sweet chili sauce"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 10
+  },
+  {
+    "name": "Avocado Toast",
+    "description": "Sourdough toast topped with mashed avocado, cherry tomatoes, and microgreens",
+    "price": 9.49,
+    "category": "Breakfast",
+    "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Sunrise Cafe",
+    "popular": true,
+    "ingredients": [
+      "Sourdough bread",
+      "Avocado",
+      "Cherry tomatoes",
+      "Microgreens",
+      "Lemon juice"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false
+    },
+    "preparationTime": 7
+  },
+  {
+    "name": "Buttermilk Pancakes",
+    "description": "Fluffy pancakes served with maple syrup and butter",
+    "price": 8.99,
+    "category": "Breakfast",
+    "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Morning Glory",
+    "popular": true,
+    "ingredients": [
+      "Buttermilk",
+      "Flour",
+      "Eggs",
+      "Maple syrup",
+      "Butter"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 10
+  },
+  {
+    "name": "Classic Burger",
+    "description": "Beef patty with lettuce, tomato, onion and special sauce",
+    "price": 12.99,
+    "category": "Burgers",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Burger Palace",
+    "popular": true,
+    "ingredients": [
+      "Beef patty",
+      "Brioche bun",
+      "Lettuce",
+      "Tomato",
+      "Onion",
+      "Special sauce"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 12
+  },
+  {
+    "name": "Margherita Pizza",
+    "description": "Classic pizza with tomato sauce, fresh mozzarella and basil",
+    "price": 14.99,
+    "category": "Pizza",
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Pizza Heaven",
+    "popular": true,
+    "ingredients": [
+      "Pizza dough",
+      "Tomato sauce",
+      "Fresh mozzarella",
+      "Basil",
+      "Olive oil"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 15
+  },
+  {
+    "name": "Caesar Salad",
+    "description": "Romaine lettuce with Caesar dressing, croutons and parmesan",
+    "price": 10.99,
+    "category": "Salads",
+    "image": "https://images.unsplash.com/photo-1529921879218-f99546d03a9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Green Leaf",
+    "popular": true,
+    "ingredients": [
+      "Romaine lettuce",
+      "Caesar dressing",
+      "Croutons",
+      "Parmesan cheese",
+      "Lemon juice"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 8
+  },
+  {
+    "name": "Beef Tacos",
+    "description": "Three soft tortillas with seasoned beef, lettuce and cheese",
+    "price": 13.49,
+    "category": "Mexican",
+    "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Taco Fiesta",
+    "popular": true,
+    "ingredients": [
+      "Corn tortillas",
+      "Seasoned beef",
+      "Lettuce",
+      "Cheddar cheese",
+      "Sour cream",
+      "Salsa"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true
+    },
+    "preparationTime": 14
+  },
+  {
+    "name": "Chicken Alfredo",
+    "description": "Fettuccine pasta in creamy Alfredo sauce with grilled chicken",
+    "price": 16.99,
+    "category": "Pasta",
+    "image": "https://images.unsplash.com/photo-1608754482805-6f630357358b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Italian Bistro",
+    "popular": true,
+    "ingredients": [
+      "Fettuccine",
+      "Grilled chicken",
+      "Heavy cream",
+      "Parmesan cheese",
+      "Garlic",
+      "Parsley"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 18
+  },
+  {
+    "name": "BBQ Ribs",
+    "description": "Slow-cooked pork ribs with BBQ sauce and coleslaw",
+    "price": 21.99,
+    "category": "BBQ",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "BBQ Pit",
+    "popular": true,
+    "ingredients": [
+      "Pork ribs",
+      "BBQ sauce",
+      "Coleslaw",
+      "Cornbread",
+      "Pickles"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 25
+  },
+  {
+    "name": "California Roll",
+    "description": "Inside-out sushi roll with crab, avocado and cucumber",
+    "price": 12.99,
+    "category": "Sushi",
+    "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Sushi House",
+    "popular": true,
+    "ingredients": [
+      "Sushi rice",
+      "Imitation crab",
+      "Avocado",
+      "Cucumber",
+      "Nori",
+      "Sesame seeds"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 12
+  },
+  {
+    "name": "French Onion Soup",
+    "description": "Caramelized onion soup with crouton and melted Gruyère",
+    "price": 8.99,
+    "category": "Soups",
+    "image": "https://images.unsplash.com/photo-1515443961218-a51367888e4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Bistro Paris",
+    "popular": true,
+    "ingredients": [
+      "Caramelized onions",
+      "Beef broth",
+      "Baguette",
+      "Gruyère cheese",
+      "Thyme"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 20
+  },
+  {
+    "name": "Breakfast Burrito",
+    "description": "Scrambled eggs, bacon, cheese and potatoes in flour tortilla",
+    "price": 11.49,
+    "category": "Breakfast",
+    "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Morning Glory",
+    "popular": false,
+    "ingredients": [
+      "Flour tortilla",
+      "Scrambled eggs",
+      "Bacon",
+      "Cheddar cheese",
+      "Potatoes",
+      "Salsa"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 10
+  },
+  {
+    "name": "Veggie Burger",
+    "description": "Plant-based patty with lettuce, tomato and special sauce",
+    "price": 13.99,
+    "category": "Burgers",
+    "image": "https://images.unsplash.com/photo-1550317138-10000687a72b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Green Leaf",
+    "popular": true,
+    "ingredients": [
+      "Plant-based patty",
+      "Whole wheat bun",
+      "Lettuce",
+      "Tomato",
+      "Onion",
+      "Vegan mayo"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false
+    },
+    "preparationTime": 12
+  },
+  {
+    "name": "Pepperoni Pizza",
+    "description": "Classic pizza with tomato sauce, mozzarella and pepperoni",
+    "price": 15.99,
+    "category": "Pizza",
+    "image": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Pizza Heaven",
+    "popular": true,
+    "ingredients": [
+      "Pizza dough",
+      "Tomato sauce",
+      "Mozzarella",
+      "Pepperoni",
+      "Oregano"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 15
+  },
+  {
+    "name": "Greek Salad",
+    "description": "Fresh vegetables with feta cheese, olives and Greek dressing",
+    "price": 11.99,
+    "category": "Salads",
+    "image": "https://images.unsplash.com/photo-1517685633466-403d695dae7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Mediterranean Grill",
+    "popular": false,
+    "ingredients": [
+      "Cucumber",
+      "Tomato",
+      "Red onion",
+      "Feta cheese",
+      "Kalamata olives",
+      "Greek dressing"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true
+    },
+    "preparationTime": 9
+  },
+  {
+    "name": "Chicken Quesadilla",
+    "description": "Grilled tortilla filled with chicken, cheese and peppers",
+    "price": 12.49,
+    "category": "Mexican",
+    "image": "https://images.unsplash.com/photo-1595857171623-d2583b3e1b48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Taco Fiesta",
+    "popular": true,
+    "ingredients": [
+      "Flour tortilla",
+      "Grilled chicken",
+      "Monterey Jack cheese",
+      "Bell peppers",
+      "Sour cream",
+      "Salsa"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 11
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta with eggs, cheese, pancetta and black pepper",
+    "price": 15.49,
+    "category": "Pasta",
+    "image": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Italian Bistro",
+    "popular": true,
+    "ingredients": [
+      "Spaghetti",
+      "Eggs",
+      "Pecorino cheese",
+      "Pancetta",
+      "Black pepper",
+      "Parsley"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 16
+  },
+  {
+    "name": "Pulled Pork Sandwich",
+    "description": "Slow-cooked pork shoulder with BBQ sauce on brioche bun",
+    "price": 13.99,
+    "category": "BBQ",
+    "image": "https://images.unsplash.com/photo-1617692855023-33b14f061079?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "BBQ Pit",
+    "popular": true,
+    "ingredients": [
+      "Pulled pork",
+      "BBQ sauce",
+      "Brioche bun",
+      "Coleslaw",
+      "Pickles"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 8
+  },
+  {
+    "name": "Rainbow Roll",
+    "description": "California roll topped with assorted sashimi",
+    "price": 16.99,
+    "category": "Sushi",
+    "image": "https://images.unsplash.com/photo-1611143669185-af224c5e0102?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Sushi House",
+    "popular": false,
+    "ingredients": [
+      "Sushi rice",
+      "Crab",
+      "Avocado",
+      "Cucumber",
+      "Assorted sashimi",
+      "Soy sauce"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 14
+  },
+  {
+    "name": "Tomato Basil Soup",
+    "description": "Creamy tomato soup with fresh basil and croutons",
+    "price": 7.99,
+    "category": "Soups",
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Soup Kitchen",
+    "popular": true,
+    "ingredients": [
+      "Tomatoes",
+      "Fresh basil",
+      "Heavy cream",
+      "Garlic",
+      "Croutons",
+      "Olive oil"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 12
+  },
+  {
+    "name": "Acai Bowl",
+    "description": "Acai berry smoothie bowl topped with granola and fresh fruits",
+    "price": 10.99,
+    "category": "Breakfast",
+    "image": "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Healthy Bites",
+    "popular": true,
+    "ingredients": [
+      "Acai puree",
+      "Banana",
+      "Granola",
+      "Strawberries",
+      "Blueberries",
+      "Coconut flakes"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false
+    },
+    "preparationTime": 6
+  },
+  {
+    "name": "Mushroom Swiss Burger",
+    "description": "Beef patty with sautéed mushrooms and Swiss cheese",
+    "price": 14.49,
+    "category": "Burgers",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Burger Palace",
+    "popular": false,
+    "ingredients": [
+      "Beef patty",
+      "Sautéed mushrooms",
+      "Swiss cheese",
+      "Caramelized onions",
+      "Brioche bun"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 13
+  },
+  {
+    "name": "Vegetarian Pizza",
+    "description": "Pizza with bell peppers, mushrooms, olives and artichokes",
+    "price": 15.99,
+    "category": "Pizza",
+    "image": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Pizza Heaven",
+    "popular": true,
+    "ingredients": [
+      "Pizza dough",
+      "Tomato sauce",
+      "Mozzarella",
+      "Bell peppers",
+      "Mushrooms",
+      "Black olives",
+      "Artichokes"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 16
+  },
+  {
+    "name": "Cobb Salad",
+    "description": "Chopped salad with chicken, bacon, eggs, avocado and blue cheese",
+    "price": 14.99,
+    "category": "Salads",
+    "image": "https://images.unsplash.com/photo-1546069901-ec64c4ca2d61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Green Leaf",
+    "popular": true,
+    "ingredients": [
+      "Romaine lettuce",
+      "Grilled chicken",
+      "Bacon",
+      "Hard-boiled eggs",
+      "Avocado",
+      "Blue cheese",
+      "Ranch dressing"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true
+    },
+    "preparationTime": 12
+  },
+  {
+    "name": "Chicken Enchiladas",
+    "description": "Corn tortillas filled with chicken, covered in enchilada sauce",
+    "price": 15.99,
+    "category": "Mexican",
+    "image": "https://images.unsplash.com/photo-1613514785940-daed07799d9b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Taco Fiesta",
+    "popular": true,
+    "ingredients": [
+      "Corn tortillas",
+      "Shredded chicken",
+      "Enchilada sauce",
+      "Monterey Jack cheese",
+      "Sour cream",
+      "Cilantro"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true
+    },
+    "preparationTime": 18
+  },
+  {
+    "name": "Shrimp Scampi Pasta",
+    "description": "Linguine with shrimp in garlic butter white wine sauce",
+    "price": 18.99,
+    "category": "Pasta",
+    "image": "https://images.unsplash.com/photo-1631815587647-6f2d4e1b0a5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Italian Bistro",
+    "popular": false,
+    "ingredients": [
+      "Linguine",
+      "Shrimp",
+      "Garlic",
+      "White wine",
+      "Butter",
+      "Lemon juice",
+      "Parsley"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 17
+  },
+  {
+    "name": "Brisket Platter",
+    "description": "Slow-smoked beef brisket with baked beans and cornbread",
+    "price": 22.99,
+    "category": "BBQ",
+    "image": "https://images.unsplash.com/photo-1556691421-cf15fe27a0b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "BBQ Pit",
+    "popular": true,
+    "ingredients": [
+      "Beef brisket",
+      "BBQ rub",
+      "Baked beans",
+      "Cornbread",
+      "Pickles",
+      "Coleslaw"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 240
+  },
+  {
+    "name": "Dragon Roll",
+    "description": "Eel and cucumber roll topped with avocado",
+    "price": 17.99,
+    "category": "Sushi",
+    "image": "https://images.unsplash.com/photo-1617195332296-5a85414b9ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Sushi House",
+    "popular": true,
+    "ingredients": [
+      "Sushi rice",
+      "Grilled eel",
+      "Cucumber",
+      "Avocado",
+      "Eel sauce",
+      "Sesame seeds"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 15
+  },
+  {
+    "name": "Minestrone Soup",
+    "description": "Italian vegetable soup with pasta and beans",
+    "price": 8.49,
+    "category": "Soups",
+    "image": "https://images.unsplash.com/photo-1619894991209-3b4e63a3d2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Italian Bistro",
+    "popular": false,
+    "ingredients": [
+      "Vegetable broth",
+      "Tomatoes",
+      "Carrots",
+      "Celery",
+      "Pasta",
+      "White beans",
+      "Basil"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": false
+    },
+    "preparationTime": 20
+  },
+  {
+    "name": "Eggs Benedict",
+    "description": "Poached eggs on English muffins with Canadian bacon and hollandaise",
+    "price": 13.99,
+    "category": "Breakfast",
+    "image": "https://images.unsplash.com/photo-1593234270323-0414ec157e54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Sunrise Cafe",
+    "popular": true,
+    "ingredients": [
+      "Poached eggs",
+      "English muffins",
+      "Canadian bacon",
+      "Hollandaise sauce",
+      "Chives"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 15
+  },
+  {
+    "name": "Blue Cheese Burger",
+    "description": "Beef patty with blue cheese crumbles and caramelized onions",
+    "price": 14.99,
+    "category": "Burgers",
+    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Burger Palace",
+    "popular": false,
+    "ingredients": [
+      "Beef patty",
+      "Blue cheese",
+      "Caramelized onions",
+      "Arugula",
+      "Brioche bun",
+      "Garlic aioli"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 14
+  },
+  {
+    "name": "BBQ Chicken Pizza",
+    "description": "Pizza with BBQ sauce, chicken, red onions and cilantro",
+    "price": 16.49,
+    "category": "Pizza",
+    "image": "https://images.unsplash.com/photo-1595857181626-fb0a47ef25f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Pizza Heaven",
+    "popular": true,
+    "ingredients": [
+      "Pizza dough",
+      "BBQ sauce",
+      "Grilled chicken",
+      "Red onions",
+      "Mozzarella",
+      "Cilantro"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 16
+  },
+  {
+    "name": "Quinoa Salad",
+    "description": "Protein-packed salad with quinoa, vegetables and lemon dressing",
+    "price": 12.99,
+    "category": "Salads",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Healthy Bites",
+    "popular": true,
+    "ingredients": [
+      "Quinoa",
+      "Cherry tomatoes",
+      "Cucumber",
+      "Red onion",
+      "Chickpeas",
+      "Lemon dressing",
+      "Feta cheese"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true
+    },
+    "preparationTime": 10
+  },
+  {
+    "name": "Nachos Supreme",
+    "description": "Tortilla chips loaded with cheese, beans, salsa and guacamole",
+    "price": 13.99,
+    "category": "Mexican",
+    "image": "https://images.unsplash.com/photo-1613514785940-daed07799d9b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Taco Fiesta",
+    "popular": true,
+    "ingredients": [
+      "Tortilla chips",
+      "Cheddar cheese",
+      "Black beans",
+      "Salsa",
+      "Guacamole",
+      "Sour cream",
+      "Jalapeños"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true
+    },
+    "preparationTime": 12
+  },
+  {
+    "name": "Lasagna",
+    "description": "Layered pasta with meat sauce, ricotta and mozzarella",
+    "price": 17.99,
+    "category": "Pasta",
+    "image": "https://images.unsplash.com/photo-1629115916087-7e8c114a24ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Italian Bistro",
+    "popular": true,
+    "ingredients": [
+      "Lasagna noodles",
+      "Ground beef",
+      "Ricotta cheese",
+      "Mozzarella",
+      "Tomato sauce",
+      "Parmesan"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 25
+  },
+  {
+    "name": "Sashimi Platter",
+    "description": "Assorted fresh raw fish slices with wasabi and pickled ginger",
+    "price": 24.99,
+    "category": "Sushi",
+    "image": "https://images.unsplash.com/photo-1611143669185-af224c5e0102?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Sushi House",
+    "popular": true,
+    "ingredients": [
+      "Salmon sashimi",
+      "Tuna sashimi",
+      "Yellowtail sashimi",
+      "Wasabi",
+      "Pickled ginger",
+      "Soy sauce"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true
+    },
+    "preparationTime": 10
+  },
+  {
+    "name": "Chicken Noodle Soup",
+    "description": "Classic comfort soup with chicken, vegetables and egg noodles",
+    "price": 9.99,
+    "category": "Soups",
+    "image": "https://images.unsplash.com/photo-1603052100248-9e75bd0b7987?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Soup Kitchen",
+    "popular": true,
+    "ingredients": [
+      "Chicken broth",
+      "Shredded chicken",
+      "Carrots",
+      "Celery",
+      "Egg noodles",
+      "Parsley"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 18
+  },
+  {
+    "name": "Breakfast Bowl",
+    "description": "Scrambled eggs, potatoes, bacon and cheese in a bowl",
+    "price": 11.99,
+    "category": "Breakfast",
+    "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Morning Glory",
+    "popular": false,
+    "ingredients": [
+      "Scrambled eggs",
+      "Potatoes",
+      "Bacon",
+      "Cheddar cheese",
+      "Avocado",
+      "Salsa"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": true
+    },
+    "preparationTime": 12
+  },
+  {
+    "name": "Truffle Fries",
+    "description": "Crispy fries tossed with truffle oil and parmesan",
+    "price": 8.99,
+    "category": "Sides",
+    "image": "https://images.unsplash.com/photo-1634034379073-f689b460a3fc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Burger Palace",
+    "popular": true,
+    "ingredients": [
+      "Potato fries",
+      "Truffle oil",
+      "Parmesan cheese",
+      "Parsley",
+      "Garlic"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true
+    },
+    "preparationTime": 10
+  },
+  {
+    "name": "Miso Soup",
+    "description": "Traditional Japanese soup with tofu and seaweed",
+    "price": 4.99,
+    "category": "Soups",
+    "image": "https://images.unsplash.com/photo-1617195332296-5a85414b9ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Sushi House",
+    "popular": true,
+    "ingredients": [
+      "Miso paste",
+      "Tofu",
+      "Seaweed",
+      "Green onions",
+      "Dashi broth"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true
+    },
+    "preparationTime": 6
+  },
+  {
+    "name": "Beef Stir Fry",
+    "description": "Sliced beef with vegetables in savory sauce over rice",
+    "price": 16.99,
+    "category": "Asian",
+    "image": "https://images.unsplash.com/photo-1625938143774-796f0a71aa32?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Wok This Way",
+    "popular": true,
+    "ingredients": [
+      "Beef sirloin",
+      "Broccoli",
+      "Bell peppers",
+      "Carrots",
+      "Soy sauce",
+      "Ginger",
+      "Jasmine rice"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 15
+  },
+  {
+    "name": "Chocolate Chip Pancakes",
+    "description": "Buttermilk pancakes with chocolate chips and maple syrup",
+    "price": 10.49,
+    "category": "Breakfast",
+    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Morning Glory",
+    "popular": true,
+    "ingredients": [
+      "Buttermilk pancakes",
+      "Chocolate chips",
+      "Maple syrup",
+      "Butter",
+      "Powdered sugar"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 11
+  },
+  {
+    "name": "Sweet Potato Fries",
+    "description": "Crispy sweet potato fries with chipotle aioli",
+    "price": 7.99,
+    "category": "Sides",
+    "image": "https://images.unsplash.com/photo-1563379926898-05bf4575ad72?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Burger Palace",
+    "popular": true,
+    "ingredients": [
+      "Sweet potatoes",
+      "Chipotle aioli",
+      "Paprika",
+      "Garlic powder"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true
+    },
+    "preparationTime": 12
+  },
+  {
+    "name": "Chicken Caesar Wrap",
+    "description": "Grilled chicken, romaine and Caesar dressing in flour tortilla",
+    "price": 11.99,
+    "category": "Sandwiches",
+    "image": "https://images.unsplash.com/photo-1626700051175-6814013e1e4c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Deli Corner",
+    "popular": true,
+    "ingredients": [
+      "Grilled chicken",
+      "Romaine lettuce",
+      "Caesar dressing",
+      "Parmesan",
+      "Flour tortilla"
+    ],
+    "dietaryInfo": {
+      "vegetarian": false,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 9
+  },
+  {
+    "name": "Fruit Parfait",
+    "description": "Layered yogurt with granola and fresh seasonal fruits",
+    "price": 7.99,
+    "category": "Breakfast",
+    "image": "https://images.unsplash.com/photo-1505253758473-96b7015fcd40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Healthy Bites",
+    "popular": true,
+    "ingredients": [
+      "Greek yogurt",
+      "Granola",
+      "Strawberries",
+      "Blueberries",
+      "Honey"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 5
+  },
+  {
+    "name": "Mozzarella Caprese",
+    "description": "Fresh mozzarella, tomatoes and basil with balsamic glaze",
+    "price": 10.99,
+    "category": "Appetizers",
+    "image": "https://images.unsplash.com/photo-1559561723-0ddd8d0a390f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Italian Bistro",
+    "popular": false,
+    "ingredients": [
+      "Fresh mozzarella",
+      "Tomato slices",
+      "Fresh basil",
+      "Balsamic glaze",
+      "Olive oil"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true
+    },
+    "preparationTime": 7
+  },
+  {
+    "name": "Garlic Bread",
+    "description": "Toasted bread with garlic butter and parsley",
+    "price": 6.49,
+    "category": "Sides",
+    "image": "https://images.unsplash.com/photo-1585036156171-384164a8c675?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "Italian Bistro",
+    "popular": true,
+    "ingredients": [
+      "Baguette",
+      "Garlic butter",
+      "Parsley",
+      "Parmesan"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false
+    },
+    "preparationTime": 8
+  },
+  {
+    "name": "Iced Coffee",
+    "description": "Chilled coffee with milk and sweetener over ice",
+    "price": 5.49,
+    "category": "Drinks",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&crop=entropy",
+    "restaurant": "All",
+    "popular": true,
+    "ingredients": [
+      "Cold brew coffee",
+      "Milk",
+      "Simple syrup",
+      "Ice"
+    ],
+    "dietaryInfo": {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true
+    },
+    "preparationTime": 3
+  }
+]
