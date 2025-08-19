@@ -6,7 +6,8 @@ const bcrypt = require("bcrypt");
 const Restaurants = require("./Schemas/Restaurant");
 const Products = require("./Schemas/Product");
 const { OAuth2Client } = require('google-auth-library');
-const googleClient = new OAuth2Client("937229950296-bhjeopfcgnjs508cj7jhhitcmhd41222.apps.googleusercontent.com");
+require('dotenv').config();
+const googleClient = new OAuth2Client(process.env.GOOGLEURL);
 
 const app = express();
 
@@ -16,7 +17,7 @@ app.use(cors());
 
 mongoose
   .connect(
-    "mongodb+srv://rohithchanda7:Cr7%401034@cluster0.gn5lvfw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    process.env.MONGOURL
   )
   .then(() => {
     console.log("MongoDB Connected");
@@ -25,8 +26,8 @@ mongoose
     console.log(err);
   });
 
-app.listen(5000, () => {
-  console.log("server started at port 5000");
+app.listen(process.env.PORT, () => {
+  console.log("server started at port ",process.env.PORT);
 });
 
 // SignUp Route
