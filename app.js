@@ -14,10 +14,7 @@ const app = express();
 
 app.use(express.json({ limit: "40mb" })); // or higher if needed
 app.use(express.urlencoded({ extended: true, limit: "40mb" }));
-app.use(cors({
-  origin: 'https://restaurant-frontend-wgp4.vercel.app/', // Your frontend URL
-  credentials: true
-}));
+app.use(cors());
 
 mongoose
   .connect(
