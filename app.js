@@ -736,25 +736,44 @@ app.get("/orders", async (req, res) => {
 app.post("/orders", async (req, res) => {
   try {
     const userId = req.headers.userid;
-    const { restaurant, items, totalAmount, deliveryAddress, status } = req.body;
+    const {
+      restaurant,
+      items,
+      totalAmount,
+      deliveryAddress,
+      status,
+      paymentMethod,
+      deliveryInstructions,
+    } = req.body;
+
+    // Basic validation
+    if (!userId || !restaurant || !paymentMethod) {
+      return res.status(400).json({ msg: "Missing required fields" });
+    }
 
     const newOrder = new Orders({
       user: userId,
-      restaurant,        // should be restaurant _id
-      items,             // array: [{ product, quantity }]
+      restaurant, // string name (e.g., "Morning Glory")
+      items,
       totalAmount,
       deliveryAddress,
-      status: status || "Pending"
+      status: status || "Pending",
+      paymentMethod,
+      deliveryInstructions,
     });
 
     await newOrder.save();
 
-    res.status(201).json({ msg: "Order created successfully", order: newOrder });
+    res.status(201).json({
+      msg: "Order created successfully",
+      order: newOrder,
+    });
   } catch (err) {
     console.error("Create order error:", err);
     res.status(500).json({ msg: "Server error, please try again" });
   }
 });
+
 
 // GET /orders/:orderId - Get a specific order
 app.get("/orders/:orderId", async (req, res) => {

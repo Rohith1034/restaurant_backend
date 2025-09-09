@@ -1,45 +1,47 @@
 const mongoose = require("mongoose");
 
 const orderSchema = new mongoose.Schema({
-  user: { 
-    type: mongoose.Schema.Types.ObjectId, 
-    ref: 'User', 
-    required: true 
+  user: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "User",
+    required: true,
   },
-  restaurant: { 
-    type: mongoose.Schema.Types.ObjectId, 
-    ref: 'Restaurant', 
-    required: true 
+  // restaurant stored as name string instead of ObjectId
+  restaurant: {
+    type: String,
+    required: true,
   },
-  items: [{
-    product: { 
-      type: mongoose.Schema.Types.ObjectId, 
-      ref: 'Product' 
+  items: [
+    {
+      product: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Product",
+      },
+      quantity: { type: Number, required: true },
+      price: { type: Number, required: true },
     },
-    quantity: { type: Number, required: true },
-    price: { type: Number, required: true }
-  }],
+  ],
   totalAmount: { type: Number, required: true },
   deliveryAddress: {
     street: String,
     city: String,
     state: String,
-    zipCode: String
+    zipCode: String,
   },
-  status: { 
-    type: String, 
-    enum: ['Pending', 'Preparing', 'On the way', 'Delivered', 'Cancelled'], 
-    default: 'Pending' 
+  status: {
+    type: String,
+    enum: ["Pending", "Preparing", "On the way", "Delivered", "Cancelled"],
+    default: "Pending",
   },
-  paymentMethod: { 
-    type: String, 
-    enum: ['Credit Card', 'Cash on Delivery', 'PayPal'], 
-    required: true 
+  paymentMethod: {
+    type: String,
+    enum: ["Credit Card", "Cash on Delivery", "PayPal"],
+    required: true,
   },
   orderDate: { type: Date, default: Date.now },
-  deliveryInstructions: { type: String }
+  deliveryInstructions: { type: String },
 });
 
-const Orders = mongoose.model("Orders",orderSchema);
+const Orders = mongoose.model("Orders", orderSchema);
 
 module.exports = Orders;
