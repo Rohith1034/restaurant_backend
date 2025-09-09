@@ -209,7 +209,9 @@ app.put('/api/restaurant/:id', async (req, res) => {
 // GET /api/restaurant/:restaurantId/products - Get all products for a restaurant
 app.get('/api/restaurant/:restaurantId/products', async (req, res) => {
   try {
-    const products = await Products.find({ restaurant: req.params.restaurantId })
+    const restaurantId = req.params.restaurantId;
+    const restaurantName = await Restaurants.find(restaurantId);
+    const products = await Products.find({ restaurant:restaurantName.name})
       .sort({ createdAt: -1 });
     
     res.json(products);
