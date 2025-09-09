@@ -64,4 +64,3 @@ restaurantSchema.pre('save', function(next) {
 const Restaurants = mongoose.model("Restaurants",restaurantSchema);
 
 module.exports = Restaurants;
-

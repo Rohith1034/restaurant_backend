@@ -9,6 +9,7 @@ const { OAuth2Client } = require('google-auth-library');
 require('dotenv').config();
 const restaurantRoutes = require("./routes/restaurant")
 const googleClient = new OAuth2Client(process.env.GOOGLEURL);
+const Orders = require("./Schemas/Order");
 
 const app = express();
 
@@ -95,7 +96,7 @@ app.post('/api/restaurant/signup', async (req, res) => {
   }
 });
 
-// POST /api/restaurant/login - Login restaurant
+// POST /api/restaurant/login - Login restaurant`
 app.post('/api/restaurant/login', async (req, res) => {
   try {
     const { email, password } = req.body;
@@ -220,21 +221,39 @@ app.get('/api/restaurant/:restaurantId/products', async (req, res) => {
 // POST /api/restaurant/:restaurantId/products - Create a new product
 app.post('/api/restaurant/:restaurantId/products', async (req, res) => {
   try {
-    const { name, description, price, category, image, available } = req.body;
+    const { 
+      restaurant,   // restaurant name (string)
+      name, 
+      description, 
+      price, 
+      category, 
+      image, 
+      available, 
+      ingredients, 
+      dietaryInfo, 
+      preparationTime 
+    } = req.body;
     
     const product = new Products({
+      restaurant,  // store restaurant name instead of ID
       name,
       description,
       price,
       category,
       image,
       available: available !== undefined ? available : true,
-      restaurant: req.params.restaurantId
+      ingredients: ingredients || [],
+      dietaryInfo: {
+        vegetarian: dietaryInfo?.vegetarian || false,
+        vegan: dietaryInfo?.vegan || false,
+        glutenFree: dietaryInfo?.glutenFree || false,
+      },
+      preparationTime: preparationTime || null
     });
-    
+
     await product.save();
-    
     res.status(201).json(product);
+
   } catch (error) {
     console.error('Create product error:', error);
     
@@ -246,6 +265,7 @@ app.post('/api/restaurant/:restaurantId/products', async (req, res) => {
     res.status(500).json({ message: 'Server error' });
   }
 });
+
 
 // GET /api/restaurant/:restaurantId/products/:productId - Get a specific product
 app.get('/api/restaurant/:restaurantId/products/:productId', async (req, res) => {
@@ -685,4 +705,66 @@ app.get("/search", async (req, res) => {
   }
 });
 
+// GET /orders - Get all orders for a user
+app.get("/orders", async (req, res) => {
+  try {
+    const userId = req.headers.userid; // client must send userId in headers
+
+    const orders = await Orders.find({ user: userId })
+      .populate('restaurant', 'name image address')
+      .populate('items.product', 'name image price')
+      .sort({ createdAt: -1 });
+
+    res.status(200).json({ orders });
+  } catch (err) {
+    console.error("Get all orders error:", err);
+    res.status(500).json({ msg: "Server error, please try again" });
+  }
+});
+
+
+// POST /orders - Create a new order
+app.post("/orders", async (req, res) => {
+  try {
+    const userId = req.headers.userid;
+    const { restaurant, items, totalAmount, deliveryAddress, status } = req.body;
+
+    const newOrder = new Orders({
+      user: userId,
+      restaurant,        // should be restaurant _id
+      items,             // array: [{ product, quantity }]
+      totalAmount,
+      deliveryAddress,
+      status: status || "Pending"
+    });
+
+    await newOrder.save();
+
+    res.status(201).json({ msg: "Order created successfully", order: newOrder });
+  } catch (err) {
+    console.error("Create order error:", err);
+    res.status(500).json({ msg: "Server error, please try again" });
+  }
+});
+
+// GET /orders/:orderId - Get a specific order
+app.get("/orders/:orderId", async (req, res) => {
+  try {
+    const userId = req.headers.userid;
+    const orderId = req.params.orderId;
+
+    const order = await Orders.findOne({ _id: orderId, user: userId })
+      .populate('restaurant', 'name image address')
+      .populate('items.product', 'name image price');
+
+    if (!order) {
+      return res.status(404).json({ msg: "Order not found" });
+    }
+
+    res.status(200).json({ order });
+  } catch (err) {
+    console.error("Get order error:", err);
+    res.status(500).json({ msg: "Server error, please try again" });
+  }
+});
 
