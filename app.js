@@ -210,16 +210,22 @@ app.put('/api/restaurant/:id', async (req, res) => {
 app.get('/api/restaurant/:restaurantId/products', async (req, res) => {
   try {
     const restaurantId = req.params.restaurantId;
-    const restaurantName = await Restaurants.find(restaurantId);
-    const products = await Products.find({ restaurant:restaurantName.name})
+    const restaurant = await Restaurants.findById(restaurantId);
+
+    if (!restaurant) {
+      return res.status(404).json({ message: 'Restaurant not found' });
+    }
+
+    const products = await Products.find({ restaurant: restaurant.name })
       .sort({ createdAt: -1 });
-    
+
     res.json(products);
   } catch (error) {
     console.error('Get products error:', error);
     res.status(500).json({ message: 'Server error' });
   }
 });
+
 
 // POST /api/restaurant/:restaurantId/products - Create a new product
 app.post('/api/restaurant/:restaurantId/products', async (req, res) => {
