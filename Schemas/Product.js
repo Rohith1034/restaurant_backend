@@ -7,7 +7,7 @@ const productSchema = new mongoose.Schema({
   category: { type: String, required: true }, // e.g., "Burgers", "Pizza"
   image: { type: String, required: true },
   restaurant: { 
-    type: mongoose.Schema.Types.ObjectId, 
+    type: String, 
     ref: 'Restaurant', 
     required: true 
   },
