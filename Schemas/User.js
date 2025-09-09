@@ -16,7 +16,7 @@ const UserSchema = new mongoose.Schema({
   ],
   profileImage: { type: String, default: "" },
   cart: [],
-  orders: [{ type: mongoose.Schema.Types.ObjectId, ref: "Order" }],
+  orders: [{ type: mongoose.Schema.Types.ObjectId, ref: "Orders" }],
   createdAt: { type: Date, default: Date.now },
   paymentMethods: []
 });

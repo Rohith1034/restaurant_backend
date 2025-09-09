@@ -767,6 +767,12 @@ app.post("/orders", async (req, res) => {
 
     await newOrder.save();
 
+    await User.findByIdAndUpdate(
+      userId,
+      { $push: { orders: newOrder._id } },
+      { new: true }
+    );
+
     res.status(201).json({
       msg: "Order created successfully",
       order: newOrder,
