@@ -14,7 +14,28 @@ const app = express();
 
 app.use(express.json({ limit: "40mb" })); // or higher if needed
 app.use(express.urlencoded({ extended: true, limit: "40mb" }));
-app.use(cors());
+const allowedOrigins = [
+  "https://restaurant-frontend-wgp4.vercel.app"
+];
+
+app.use(cors({
+  origin: function(origin, callback) {
+    // Allow requests with no origin (e.g. mobile apps, curl, Postman)
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error("CORS policy: This origin is not allowed"));
+    }
+  },
+  credentials: true,
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization", "Cookie"]
+}));
+
+// Ensure preflight requests are handled
+app.options("*", cors());
+
 
 mongoose
   .connect(
@@ -70,11 +91,14 @@ app.post('/api/restaurant/signup', async (req, res) => {
     await restaurant.save();
 
     // Set restaurant ID in cookie
-    res.cookie('restaurantId', restaurant._id.toString(), {
-      httpOnly: true,
-      maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
-      sameSite: 'strict'
-    });
+    // before: sameSite: 'strict'
+res.cookie('restaurantId', restaurant._id.toString(), {
+  httpOnly: true,
+  maxAge: 7 * 24 * 60 * 60 * 1000,
+  sameSite: 'none',
+  secure: true
+});
+
 
     res.status(201).json({
       message: 'Restaurant created successfully',
