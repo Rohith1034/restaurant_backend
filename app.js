@@ -736,6 +736,9 @@ app.get("/orders", async (req, res) => {
 app.post("/orders", async (req, res) => {
   try {
     const userId = req.headers.userid;
+    console.log("Headers:", req.headers);
+    console.log("Body received:", req.body);
+
     const {
       restaurant,
       items,
@@ -746,14 +749,14 @@ app.post("/orders", async (req, res) => {
       deliveryInstructions,
     } = req.body;
 
-    // Basic validation
     if (!userId || !restaurant || !paymentMethod) {
+      console.error("Missing field:", { userId, restaurant, paymentMethod });
       return res.status(400).json({ msg: "Missing required fields" });
     }
 
     const newOrder = new Orders({
       user: userId,
-      restaurant, // string name (e.g., "Morning Glory")
+      restaurant,
       items,
       totalAmount,
       deliveryAddress,
@@ -773,6 +776,7 @@ app.post("/orders", async (req, res) => {
     res.status(500).json({ msg: "Server error, please try again" });
   }
 });
+
 
 
 // GET /orders/:orderId - Get a specific order
